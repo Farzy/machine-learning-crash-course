@@ -11,6 +11,9 @@ python = "^3.12"
 jupyter = "^1.0.0"
 numpy = "^1.26.4"
 pandas = "^2.2.2"
+tensorflow = "^2.16.2"
+scikit-learn = "^1.5.1"
+seaborn = "^0.13.2"
 
 
 [build-system]
