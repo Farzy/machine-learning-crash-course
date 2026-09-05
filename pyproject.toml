@@ -3,11 +3,10 @@ name = "machine-learning-crash-course"
 version = "0.1.0"
 description = "Google Machine Learning Crash Course"
 readme = "README.md"
-package-mode = false
 authors = [
     {name = "Farzad FARID", email = "farzy@farzy.org"},
 ]
-requires-python = "==3.12"
+requires-python = ">=3.12,<3.13"
 dependencies = [
     "jupyter",
     "numpy",
@@ -18,4 +17,5 @@ dependencies = [
 ]
 
 [tool.uv]
+package = false
 default-groups = []
